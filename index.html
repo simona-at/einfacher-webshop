@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>"The Beatles" – Merchandise Shop (Simona Ascher)</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>"The Beatles" – Merchandise Shop</h1>
+
+        <!-- Kategorien -->
+        <div id="bekleidung">
+            <button class="kategorie">
+               Bekleidung
+            </button>
+            <div class="row panel">
+                <div class="col">
+                    <img src="images/essential.jpg">
+                    <h4>Essential T-Shirt</h4>
+                    <p>Preis: <span>18</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/longshirt.jpg">
+                    <h4>Longshirt</h4>
+                    <p>Preis: <span>20</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/hoddie.jpg">
+                    <h4>Hoddie</h4>
+                    <p>Preis: <span>45</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/vintage.jpg">
+                    <h4>Vintage T-Shirt</h4>
+                    <p>Preis: <span>25</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+            </div>
+        </div>
+
+        <div id="wohndeko">
+            <button class="kategorie">
+               Wohndeko
+            </button>
+            <div class="row panel">
+
+                <div class="col">
+                    <img src="images/dekokissen.jpg">
+                    <h4>Dekokissen</h4>
+                    <p>Preis: <span>8</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/bodenkissen.jpg">
+                    <h4>Bodenkissen</h4>
+                    <p>Preis: <span>16</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/tagesdecke.jpg">
+                    <h4>Tagesdecke</h4>
+                    <p>Preis: <span>24</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/duschvorhang.jpg">
+                    <h4>Duschvorhang</h4>
+                    <p>Preis: <span>18</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+            </div>
+        </div>
+
+        <div id="accessoires">
+            <button class="kategorie">
+                Accessoires
+            </button>
+            <div class="row panel">
+
+                <div class="col">
+                    <img src="images/tuch.jpg">
+                    <h4>Tuch</h4>
+                    <p>Preis: <span>16</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/taeschchen.jpg">
+                    <h4>Täschchen</h4>
+                    <p>Preis: <span>12</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/trinkflasche.jpg">
+                    <h4>Trinkflasche</h4>
+                    <p>Preis: <span>12</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/turnbeutel.jpg">
+                    <h4>Turnbeutel</h4>
+                    <p>Preis: <span>18</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+            </div>
+        </div>
+
+        <div id="schreibwaren">
+            <button class="kategorie">
+                Schreibwaren
+            </button>
+            <div class="row panel">
+                <div class="col">
+                    <img src="images/sticker.jpg">
+                    <h4>Sticker</h4>
+                    <p>Preis: <span>4</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/spiralblock.jpg">
+                    <h4>Spiralblock</h4>
+                    <p>Preis: <span>8</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/notizbuch.jpg">
+                    <h4>Notizbuch</h4>
+                    <p>Preis: <span>12</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+                <div class="col">
+                    <img src="images/button.jpg">
+                    <h4>Button</h4>
+                    <p>Preis: <span>4</span> €</p>
+                    <input type="button" value="In den Warenkorb">
+                </div>
+            </div>
+        </div>
+
+        <!-- Warenkorb -->
+        <div id="warenkorb">
+            <h2>Warenkorb</h2>
+            <div class="content">
+                <div class="floatLeft"></div>
+                <div class="row">
+                    <h3>Gesamtsumme: <b id="sum">0</b> €</h3>
+                    <input type="submit" id="bestellen" value="Bestellen">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
